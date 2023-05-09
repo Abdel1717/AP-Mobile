@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="txtBtnMajeur">Majeur</string>
+    <string name="txtBtnJunior">Junior</string>
+    <string name="txtBtnSenior">Senior</string>
+    <string name="txtBtnProfessionnel">Professionnel</string>
+    <string name="txtMenuRecherche">Rechercher un Joueur</string>
+    <string name="txtMenuReserver">Reserver</string>
+    <string name="txtMenuEvenement">Evenement</string>
+    <string name="txtMenuPresentation">Présentation</string>
+    <string name="txtMenuContact">Contact</string>
+    <string name="txtMenuEquipe">Equipe</string>
+    <string name="txtMenuCroissance">Croissance</string>
+    <string name="txtListeMajeur">Liste Majeur</string>
+    <string name="txtListeJunior">Liste Junior</string>
+    <string name="txtListeSenior">Liste Senior</string>
+    <string name="txtListeProfessionnel">Liste Professionnel</string>
+
+
+
+</resources>
