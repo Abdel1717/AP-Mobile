@@ -6,26 +6,53 @@
     android:layout_height="match_parent"
     tools:context=".Majeur">
 
-
     <TextView
-        android:id="@+id/Liste_Majeur"
+        android:id="@+id/Page_Benjamins"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="182dp"
-        android:layout_marginTop="55dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="55dp"
         android:text="@string/txtListeMajeur"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btn_retour"
+        android:id="@+id/BtnRetourBenj"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="159dp"
-        android:layout_marginBottom="69dp"
-        android:text="Retour"
+        android:layout_marginStart="153dp"
+        android:layout_marginBottom="57dp"
+        android:text="@string/txtBtnRetourBenj"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        app:layout_constraintStart_toStartOf="parent" />
 
+    <LinearLayout
+        android:layout_width="407dp"
+        android:layout_height="398dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/BtnRetourBenj"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Page_Benjamins">
+
+        <ListView
+            android:id="@+id/listview_Majeur"
+            android:layout_width="333dp"
+            android:layout_height="325dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="58dp"
+            android:layout_marginBottom="57dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.ap_dvd;
 
 import org.junit.Test;
 
